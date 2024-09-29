@@ -42,5 +42,5 @@ cdf=pd.merge(rdf,pdf,how='left',on='num')
 import numpy as np
 g12df=cdf.groupby(['request_user','prediction_model']).size()
 unstacked = g12df.unstack()
-fig1 = px.pie(unstacked, values='n04', names='n77', title='Example Pie Chart')
+fig1 = px.pie(unstacked, values='n04', names='n77', title='n77')
 st.plotly_chart(fig1)

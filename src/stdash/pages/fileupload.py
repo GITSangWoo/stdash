@@ -4,9 +4,6 @@ import pandas as pd
 from datetime import datetime
 import os
 
-
-
-
 menu = ['이미지 파일 업로드', '핫도그 사진 판별기']
 
 choice = st.sidebar.selectbox('메뉴',menu)
